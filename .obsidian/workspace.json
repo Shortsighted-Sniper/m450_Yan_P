@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 421.5
+    "width": 225.5,
+    "collapsed": true
   },
   "right": {
     "id": "42da7cfcf6b6f987",
@@ -165,6 +166,10 @@
   },
   "active": "75b27894b5ffe23c",
   "lastOpenFiles": [
+    "tbz_notes/Contents/Teststrategie.md",
+    "tbz_notes/Contents/Grundlagen zu Testing und Testing in Vorgehensmodelle.md",
+    "tbz_notes/Contents/Testing im Vorgehensmodell.md",
+    "tbz_notes/Contents/Testlevels.md",
     "tbz_notes/M450/m450_notes/Welcome.md",
     "tbz_notes/M450/m450_notes",
     "tbz_notes/M450/Contents/Testing im Vorgehensmodell.md",
@@ -192,10 +197,6 @@
     "dnd_notes/Information/People/Families/Carian Family/Members/Froth Caria.md",
     "dnd_notes/Information/People/Families/Carian Family/Members/Distus Caria.md",
     "dnd_notes/Information/People/Families/Carian Family/Members/Bartram Caria.md",
-    "dnd_notes/Information/People/Families/Carian Family/Members/Agi Caria.md",
-    "dnd_notes/Information/People/Families/Carian Family/Carian Family.md",
-    "Vandal.md",
-    "dnd_notes/Information/Miscellaneous/Vandal incident.md",
     "dnd_notes/Character Sheets",
     "dnd_notes/Information/People/Families/Orthus Family/Orthus Family Tree (WIP).canvas",
     "dnd_notes/Information/People/Families/Orthus Family/Members",

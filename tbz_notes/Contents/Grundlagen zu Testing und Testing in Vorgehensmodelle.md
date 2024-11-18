@@ -101,10 +101,10 @@ Tests if the whole application is accepted by the customer.
 - SW-Mangel:
 	- Ein Suchfeld wird auf einer Webseite 2 Mal gerendert. Es funktioniert correct und man kann die Wahren suchen.
 - Hohe Schaden bei SW-Fehler:
-	- Wegen dem Fehler aus dem 'SW-Fehler' Beispiel können die User nicht einlogen und deswegen können sie nicht die App benutzen.
+		- Es gibt einen Fehler bei der SW eines Flugzeugs und es stürzt ab, was führt dazu, dass Menschen sterben.
 
 ## Aufgabe 3
-### Fuktion zu Testen
+### Funktion zu Testen
 ``` c
 double calculatePrice(double baseprice, double specialprice, double extraprice, int extras, double discount) {
 	double addon_discount;
