@@ -1,0 +1,207 @@
+{
+  "main": {
+    "id": "40c6a8a28345e7d4",
+    "type": "split",
+    "children": [
+      {
+        "id": "112d211804d13d75",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "75b27894b5ffe23c",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "09667c2dcd7ba048",
+    "type": "split",
+    "children": [
+      {
+        "id": "3dffc017429dc43a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d48d0d4a4d13a330",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "2e043708c23bc5e4",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "10e2a462c68aa8d0",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 282.5
+  },
+  "right": {
+    "id": "42da7cfcf6b6f987",
+    "type": "split",
+    "children": [
+      {
+        "id": "75a4aef0d506fbda",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9c59d81566040d3b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "7ee17459bbdc608a",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "M450/Contents/Testing im Vorgehensmodell.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Testing im Vorgehensmodell"
+            }
+          },
+          {
+            "id": "1f6e17dd9a796fd3",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "493fb929e7042351",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "M450/Contents/Testing im Vorgehensmodell.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Testing im Vorgehensmodell"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "random-note:Open random note": false,
+      "graph:Open graph view": false,
+      "command-palette:Open command palette": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "switcher:Open quick switcher": false
+    }
+  },
+  "active": "d48d0d4a4d13a330",
+  "lastOpenFiles": [
+    "tbz_notes/M450/m450_notes/Welcome.md",
+    "tbz_notes/M450/m450_notes",
+    "tbz_notes/M450/Contents/Testing im Vorgehensmodell.md",
+    "tbz_notes/M450/Contents/Grundlagen zu Testing und Testing in Vorgehensmodelle.md",
+    "tbz_notes/M450/Contents/Test Driven Development.md",
+    "tbz_notes/M450/Contents/Testkonzept vertieft.md",
+    "tbz_notes/M450/Contents/Unit-Tests.md",
+    "tbz_notes/M450/Contents/Teststrategie.md",
+    "tbz_notes/M450/Contents/Testlevels.md",
+    "tbz_notes/M450/Contents/Testing im Vorgehensmodell",
+    "tbz_notes/M450/Grundlagen zu Testen",
+    "tbz_notes/M450/Contents/Code Reviews.md",
+    "tbz_notes/M450/Contents/CICD Pipelines & Deployment Umgebung.md",
+    "tbz_notes/M450/Contents/Automation Testing & Testingtools.md",
+    "tbz_notes/M450/Contents/Auswertungen.md",
+    "tbz_notes/M450/Contents/Abhängigkeiten zu Schnittstellen.md",
+    "dnd_notes/Information/People/Families/Carian Family/Carian Family Tree.canvas",
+    "dnd_notes/Information/People/Families/Carian Family/Members/Itha Caria.md",
+    "dnd_notes/Information/People/SAF/Current SAF Members/Grug.md",
+    "Untitled.canvas",
+    "2024-11-13.md",
+    "dnd_notes/Information/People/SAF/SAF.md",
+    "dnd_notes/Information/People/Families/Carian Family/Members/Triston Caria.md",
+    "dnd_notes/Information/People/Families/Carian Family/Members/Spring Caria.md",
+    "dnd_notes/Information/People/Families/Carian Family/Members/Froth Caria.md",
+    "dnd_notes/Information/People/Families/Carian Family/Members/Distus Caria.md",
+    "dnd_notes/Information/People/Families/Carian Family/Members/Bartram Caria.md",
+    "dnd_notes/Information/People/Families/Carian Family/Members/Agi Caria.md",
+    "dnd_notes/Information/People/Families/Carian Family/Carian Family.md",
+    "Vandal.md",
+    "dnd_notes/Information/Miscellaneous/Vandal incident.md",
+    "dnd_notes/Character Sheets",
+    "dnd_notes/Information/People/Families/Orthus Family/Orthus Family Tree (WIP).canvas",
+    "dnd_notes/Information/People/Families/Orthus Family/Members",
+    "dnd_notes/Information/People/Families/Orthus Family",
+    "dnd_notes/Information/People/Families/Blackguard Family/Members",
+    "dnd_notes/Information/People/Families/Carian Family/Members",
+    "dnd_notes/Information/People/Families/Blackguard Family/Blackguard Family Tree (WIP).canvas",
+    "dnd_notes/Information/People/SAF/Current SAF Members",
+    "dnd_notes/Information/Enemies",
+    "tbz_notes/M450/Contents/images/scrum_flow.jpg",
+    "tbz_notes/M450/Contents/images/peco-v-modell.png",
+    "tbz_notes/M450/Contents/images/peco-v-modell-einfaches-modell-xl.png",
+    "peco-v-modell 1.png"
+  ]
+}
