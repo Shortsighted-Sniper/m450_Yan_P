@@ -104,4 +104,93 @@ Tests if the whole application is accepted by the customer.
 	- Wegen dem Fehler aus dem 'SW-Fehler' Beispiel können die User nicht einlogen und deswegen können sie nicht die App benutzen.
 
 ## Aufgabe 3
+### Fuktion zu Testen
+``` c
+double calculatePrice(double baseprice, double specialprice, double extraprice, int extras, double discount) {
+	double addon_discount;
+	double result;
+	
+	if (extras >= 3) 
+		addon_discount = 10;
+	else if (extras >= 5)
+		addon_discount = 15;
+	else 
+		addon_discount = 0;
+	
+	if (discount > addon_discount)
+		addon_discount = discount;
+	
+	result = baseprice/100.0 * (100-discount) + specialprice + extraprice/100.0 * (100-addon_discount);
+	
+	return result;
+}
+```
 
+### Tests
+``` c
+boolean test_calculate_price_no_extras(){
+    double price;
+	// 1145 = 1000 * ((100-5)/100) + 100 * ((100-5)/100) + 100 
+	price = calculatePrice(1000.0, 100.0, 100.0, 0, 5.0)
+	if (price != 1145.0)
+	{
+	return false;
+	}
+} // > returns true
+
+boolean test_calculate_price_3_extras(){
+    double price;
+	// 1000 * ((100-5)/100) + 100 * ((100-10)/100) + 100
+	price = calculatePrice(1000.0, 100.0, 100.0, 3, 20.0)
+	if (price != 1140.0)
+	{
+	return false;
+	}
+} // > returns true
+
+boolean test_calculate_price_4_extras(){
+    double price;
+	// 1000 * ((100-5)/100) + 100 * ((100-10)/100) + 100
+	price = calculatePrice(1000.0, 100.0, 100.0, 4, 20.0)
+	if (price != 1140.0)
+	{
+	return false;
+	}
+} // > returns true
+
+boolean test_calculate_price_6_extras(){
+    double price;
+	// 1000 * ((100-5)/100) + 100 * ((100-15)/100) + 100
+	price = calculatePrice(1000.0, 100.0, 100.0, 6, 20.0)
+	if (price != 1395.0)
+	{
+	return false;
+	}
+} // > returns false
+```
+
+## Aufgabe 3+
+### Corrected and Prettied up Code
+``` c
+double calculatePrice(double baseprice, double specialprice, double extraprice, int extras, double discount)
+{
+	double addon_discount;
+	
+	if (extras >= 5) {
+		addon_discount = 15.0;
+	} else if (extras >= 3) { 
+		addon_discount = 10.0;
+	} else {
+		addon_discount = 0.0;
+	}
+	
+	if (discount > addon_discount) 
+	{
+		addon_discount = discount;
+	}
+	
+	return baseprice * ((100.0-discount)/100.0) + 
+	       extraprice * ((100.0-addon_discount)/100.0) + 
+	       specialprice;
+}
+```
