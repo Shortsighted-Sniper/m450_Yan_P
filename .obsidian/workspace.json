@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tbz_notes/Contents/Grundlagen zu Testing und Testing in Vorgehensmodelle.md",
+                "file": "Contents/Teststrategie.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Grundlagen zu Testing und Testing in Vorgehensmodelle"
+              "title": "Teststrategie"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 225.5,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "42da7cfcf6b6f987",
@@ -166,10 +165,15 @@
   },
   "active": "75b27894b5ffe23c",
   "lastOpenFiles": [
-    "tbz_notes/Contents/Teststrategie.md",
-    "tbz_notes/Contents/Grundlagen zu Testing und Testing in Vorgehensmodelle.md",
+    "Contents/Testkonzept vertieft.md",
+    "Contents/Testlevels.md",
+    "Contents/Teststrategie.md",
+    "Contents/Auswertungen.md",
+    "Contents/Grundlagen zu Testing und Testing in Vorgehensmodelle.md",
+    "Contents/Test Driven Development.md",
+    "Contents/Unit-Tests.md",
+    "ReadMe.md",
     "tbz_notes/Contents/Testing im Vorgehensmodell.md",
-    "tbz_notes/Contents/Testlevels.md",
     "tbz_notes/M450/m450_notes/Welcome.md",
     "tbz_notes/M450/m450_notes",
     "tbz_notes/M450/Contents/Testing im Vorgehensmodell.md",
@@ -192,11 +196,6 @@
     "Untitled.canvas",
     "2024-11-13.md",
     "dnd_notes/Information/People/SAF/SAF.md",
-    "dnd_notes/Information/People/Families/Carian Family/Members/Triston Caria.md",
-    "dnd_notes/Information/People/Families/Carian Family/Members/Spring Caria.md",
-    "dnd_notes/Information/People/Families/Carian Family/Members/Froth Caria.md",
-    "dnd_notes/Information/People/Families/Carian Family/Members/Distus Caria.md",
-    "dnd_notes/Information/People/Families/Carian Family/Members/Bartram Caria.md",
     "dnd_notes/Character Sheets",
     "dnd_notes/Information/People/Families/Orthus Family/Orthus Family Tree (WIP).canvas",
     "dnd_notes/Information/People/Families/Orthus Family/Members",
