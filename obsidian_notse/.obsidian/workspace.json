@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Contents/Teststrategie.md",
+                "file": "Contents/Unit-Tests.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Teststrategie"
+              "title": "Unit-Tests"
             }
           }
         ]
@@ -165,13 +165,18 @@
   },
   "active": "75b27894b5ffe23c",
   "lastOpenFiles": [
-    "Contents/Testkonzept vertieft.md",
-    "Contents/Testlevels.md",
     "Contents/Teststrategie.md",
-    "Contents/Auswertungen.md",
-    "Contents/Grundlagen zu Testing und Testing in Vorgehensmodelle.md",
+    "Contents/Testlevels.md",
+    "Contents/Testkonzept vertieft.md",
     "Contents/Test Driven Development.md",
+    "Contents/Grundlagen zu Testing und Testing in Vorgehensmodelle.md",
+    "Contents/Code Reviews.md",
+    "Contents/CICD Pipelines & Deployment Umgebung.md",
+    "Contents/Automation Testing & Testingtools.md",
     "Contents/Unit-Tests.md",
+    "Contents/Abhängigkeiten zu Schnittstellen.md",
+    "Contents/Auswertungen.md",
+    "Logarithmus spick.md",
     "ReadMe.md",
     "tbz_notes/Contents/Testing im Vorgehensmodell.md",
     "tbz_notes/M450/m450_notes/Welcome.md",
@@ -189,13 +194,8 @@
     "tbz_notes/M450/Contents/CICD Pipelines & Deployment Umgebung.md",
     "tbz_notes/M450/Contents/Automation Testing & Testingtools.md",
     "tbz_notes/M450/Contents/Auswertungen.md",
-    "tbz_notes/M450/Contents/Abhängigkeiten zu Schnittstellen.md",
     "dnd_notes/Information/People/Families/Carian Family/Carian Family Tree.canvas",
-    "dnd_notes/Information/People/Families/Carian Family/Members/Itha Caria.md",
-    "dnd_notes/Information/People/SAF/Current SAF Members/Grug.md",
     "Untitled.canvas",
-    "2024-11-13.md",
-    "dnd_notes/Information/People/SAF/SAF.md",
     "dnd_notes/Character Sheets",
     "dnd_notes/Information/People/Families/Orthus Family/Orthus Family Tree (WIP).canvas",
     "dnd_notes/Information/People/Families/Orthus Family/Members",
