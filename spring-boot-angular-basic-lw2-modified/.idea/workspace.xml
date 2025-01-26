@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a1666b75-8395-4eb0-a046-8fb3be8783cc" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../spring-boot-angular-basic-lw2/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-boot-angular-basic-lw2/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-boot-angular-basic-lw2/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-boot-angular-basic-lw2/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-boot-angular-basic-lw2/src/main/java/ch/tbz/m450/testing/tools/StudentApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-boot-angular-basic-lw2/src/main/java/ch/tbz/m450/testing/tools/controller/StudentController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-boot-angular-basic-lw2/src/main/java/ch/tbz/m450/testing/tools/repository/StudentRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-boot-angular-basic-lw2/src/main/java/ch/tbz/m450/testing/tools/repository/entities/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-boot-angular-basic-lw2/src/main/js/my-app/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-boot-angular-basic-lw2/src/main/js/my-app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-boot-angular-basic-lw2/src/main/js/my-app/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-boot-angular-basic-lw2/src/main/js/my-app/angular.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-boot-angular-basic-lw2/src/main/js/my-app/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-boot-angular-basic-lw2/src/main/js/my-app/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-boot-angular-basic-lw2/src/main/js/my-app/src/app/app-routing.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-boot-angular-basic-lw2/src/main/js/my-app/src/app/app.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-boot-angular-basic-lw2/src/main/js/my-app/src/app/app.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-boot-angular-basic-lw2/src/main/js/my-app/src/app/app.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-boot-angular-basic-lw2/src/main/js/my-app/src/app/app.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-boot-angular-basic-lw2/src/main/js/my-app/src/app/app.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-boot-angular-basic-lw2/src/main/js/my-app/src/app/model/student.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-boot-angular-basic-lw2/src/main/js/my-app/src/app/service/student.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-boot-angular-basic-lw2/src/main/js/my-app/src/app/student-form/student-form.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-boot-angular-basic-lw2/src/main/js/my-app/src/app/student-form/student-form.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-boot-angular-basic-lw2/src/main/js/my-app/src/app/student-form/student-form.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-boot-angular-basic-lw2/src/main/js/my-app/src/app/student-form/student-form.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-boot-angular-basic-lw2/src/main/js/my-app/src/app/student-list/student-list.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-boot-angular-basic-lw2/src/main/js/my-app/src/app/student-list/student-list.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-boot-angular-basic-lw2/src/main/js/my-app/src/app/student-list/student-list.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-boot-angular-basic-lw2/src/main/js/my-app/src/app/student-list/student-list.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-boot-angular-basic-lw2/src/main/js/my-app/src/assets/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-boot-angular-basic-lw2/src/main/js/my-app/src/assets/tbz_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-boot-angular-basic-lw2/src/main/js/my-app/src/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-boot-angular-basic-lw2/src/main/js/my-app/src/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-boot-angular-basic-lw2/src/main/js/my-app/src/main.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-boot-angular-basic-lw2/src/main/js/my-app/src/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-boot-angular-basic-lw2/src/main/js/my-app/tsconfig.app.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-boot-angular-basic-lw2/src/main/js/my-app/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-boot-angular-basic-lw2/src/main/js/my-app/tsconfig.spec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-boot-angular-basic-lw2/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-boot-angular-basic-lw2/src/test/java/ch/tbz/m450/testing/tools/StudentApplicationTests.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5
+}]]></component>
+  <component name="ProjectId" id="2sAp08vAITVGm76mjByRvAgP1Gu" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.StudentApplicationTests.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "O:/teams-stuff/tbz_stuff/m450_Yan_P/Project-final/spring-boot-angular-basic-lw2",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="JUnit.StudentApplicationTests">
+    <configuration name="StudentApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-boot-angular-basic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ch.tbz.m450.testing.tools.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ch.tbz.m450.testing.tools.controller" />
+      <option name="MAIN_CLASS_NAME" value="ch.tbz.m450.testing.tools.controller.StudentApplicationTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="spring-boot-angular-basic" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ch.tbz.m450.testing.tools.StudentApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.StudentApplicationTests" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-125ca727e0f0-intellij.indexing.shared.core-IU-243.23654.153" />
+        <option value="bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-IU-243.23654.153" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a1666b75-8395-4eb0-a046-8fb3be8783cc" name="Changes" comment="" />
+      <created>1737908008413</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1737908008413</updated>
+      <workItem from="1737908009569" duration="267000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

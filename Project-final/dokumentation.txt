@@ -1,0 +1,55 @@
+1. Grobe Architektur der Applikation=
+	Die Applikation besteht aus einer Frontend-Komponente (Angular) und einer Backend-Komponente (Spring Boot). Beide kommunizieren über REST-APIs:
+		Frontend (Angular):
+			Komponenten wie StudentListComponent interagieren mit Services.
+			Services verwenden HTTP-Requests, um Daten vom Backend abzurufen.
+		Backend (Spring Boot):
+			StudentController: Stellt REST-Endpoints für CRUD-Operationen bereit.
+			StudentRepository: Verwaltet die Datenbankoperationen für Student-Entitäten.
+			Student: Repräsentiert die Kern-Datenstruktur (ID, Name, E-Mail).
+		Datenbank:
+			Persistiert Student-Entitäten mit einer typischen relationalen Struktur (z. B. Tabellen).
+
+Afubau:
+	Datenbank >--SQL--> Backend(Spring Boot) >--HTTP--> Frontend(Angular)
+
+2. Test Konzept
+	Das Testkonzept für die Applikation ist darauf ausgelegt, eine hohe Testabdeckung zu erreichen und sicherzustellen, dass die Applikation in verschiedenen Szenarien robust arbeitet. Die Wahl der Testfälle umfasst:
+		Backend Tests:
+			Normalfälle:
+				Abrufen aller Studenten (Überprüfung, ob alle vorhandenen Datensätze korrekt geliefert werden).
+				Hinzufügen eines neuen Studenten (Test, ob ein neuer Datensatz korrekt in der Datenbank gespeichert wird).
+				Abrufen eines spezifischen Studenten (Überprüfen, ob der korrekte Datensatz anhand der ID geliefert wird).
+			Grenzfälle:
+				Abrufen eines Studenten mit einer ungültigen ID (z. B. negativer Wert oder nicht existierende ID).
+				Hinzufügen eines Studenten mit fehlenden Feldern (z. B. Name oder E-Mail fehlt).
+			Fehlerfälle:
+				Datenbankverbindung fehlschlägt (Mocking eines Datenbankausfalls).
+				Ungültige HTTP-Anfragen (z. B. falsches HTTP-Methodenformat).
+		Testarten:
+			Komponententests:
+				Testen der REST-Endpoints mit MockMvc und Mockito.
+			Integrationstests:
+				Sicherstellen, dass das Frontend korrekt mit den Backend-APIs kommuniziert.
+			E2E-Tests:
+				End-to-End-Tests zur Simulation der Benutzerinteraktion mit Protractor oder Cypress.
+
+3. Automatisierung des Testings
+	CI/CD-Pipeline:
+		GitHub Actions:
+			Backend: Maven-basierte Tests für Spring Boot.
+			Frontend: npm-basierte Tests für Angular.
+		Automatische Ausführung bei jedem Commit oder Pull Request.
+	Pipeline Schritte:
+		1. Code Checkout.
+		2. Setup von Java/Node.js.
+		3. Abhängigkeiten installieren.
+		4. Backend- und Frontend-Tests ausführen.
+
+4. Reflexion über Code Reviews und TDD
+	Code Reviews:
+		Pull Requests wurden verwendet, um Änderungen zu überprüfen.
+		Kommentare halfen, den Code lesbarer und wartbarer zu machen.
+	TDD (Test-Driven Development):
+		Tests wurden vor der Implementierung neuer Features geschrieben.
+		Dies führte zu stabilerem Code und früherer Fehlererkennung.
